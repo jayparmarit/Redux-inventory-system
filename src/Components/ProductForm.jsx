@@ -62,21 +62,21 @@ const ProductForm = () => {
             <Row>
                 <Col>
                     <Card className='p-4 shadow'>
-                        <h3 className='text-center'>Inventory System</h3>
+                        <h3 className='text-center fw-bold'>Inventory System</h3>
                         <form onSubmit={handleSubmit}>
-                            <Form.Group className="mb-3 " >
+                            <Form.Group className="mb-3 fw-bold" >
                                 <Form.Label>Name</Form.Label>
                                 <Form.Control type='text' placeholder=" Enter Product Name..." value={product.Name} onChange={(e) => handleChange("Name", e)} />
                             </Form.Group>
-                            <Form.Group className="mb-3" >
+                            <Form.Group className="mb-3 fw-bold" >
                                 <Form.Label>Price</Form.Label>
                                 <Form.Control type='number' placeholder="Enter Price" value={product.Price} onChange={(e) => handleChange("Price", e)} />
                             </Form.Group>
-                            <Form.Group className="mb-3" >
+                            <Form.Group className="mb-3 fw-bold" >
                                 <Form.Label>Quantity</Form.Label>
                                 <Form.Control type='number' placeholder="Enter Quantity" value={product.Quantity} onChange={(e) => handleChange("Quantity", e)} />
                             </Form.Group>
-                            <Form.Group className="mb-3" >
+                            <Form.Group className="mb-3 fw-bold" >
                                 <Form.Label>Category</Form.Label>
                                 <Form.Control type='text' placeholder="Enter Category" value={product.Category} onChange={(e) => handleChange("Category", e)} />
                             </Form.Group>
