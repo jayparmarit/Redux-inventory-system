@@ -1,16 +1,67 @@
-# React + Vite
+<img width="1920" height="883" alt="Screenshot 2026-01-29 114554" src="https://github.com/user-attachments/assets/0bfdee69-07d6-4dae-be74-8ff4da905094" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🧾 Redux Inventory Management System
 
-Currently, two official plugins are available:
+A simple Inventory Management System built using React, Redux Toolkit, and Vite.
+This application allows users to add, update, delete, and view products using centralized state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+liveDemo-https://redux-inventory-system.netlify.app/
 
-## React Compiler
+🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+➕ Add new products
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✏️ Edit existing products
+
+❌ Delete products
+
+📋 View product list in a table
+
+🧠 Global state management using Redux Toolkit
+
+⚡ Fast development with Vite
+
+🎨 UI components using React Bootstrap
+
+🛠️ Tech Stack
+
+React
+
+Redux Toolkit
+
+React Redux
+
+Vite
+
+React Bootstrap
+
+React Icons
+
+📂 Project Folder Structure
+src
+ ├── Components
+ <br/>
+ │   ├── ProductForm.jsx
+  <br/>
+ │   └── ProductList.jsx
+  <br/>
+ │
+ ├── feature
+  <br/>
+ │   └── product
+  <br/>
+ │       └── productSlice.js
+  <br/>
+ │
+ ├── store
+  <br/>
+ │   └── store.js
+  <br/>
+ │
+ ├── App.jsx
+  <br/>
+ ├── main.jsx
+  <br/>
+ ├── index.css
+  <br/>
